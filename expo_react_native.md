@@ -1,6 +1,6 @@
 # Notes on Expo React Native
 
-## Debugging builds for errors
+## Debugging builds for errors through the commandline
 
 - On the managed device, open the Settings app.
 - Navigate to About `Phone -> Build Number`. Click on it 6 to 7 times, upon which You are now a developer is shown.
