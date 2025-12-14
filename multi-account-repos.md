@@ -50,3 +50,19 @@ git config user.email "your.personal@email.com"
 git config user.name "Your Office Name"
 git config user.email "your.office@email.com"
 ```
+
+### Add the Alias to Existing Repos
+Open Git Bash (or PowerShell) inside your existing repo and run one of the following:
+```
+For Personal repo
+Bashgit remote set-url origin git@github-personal:your-username/your-repo-name.git
+Replace your-username and your-repo-name with actual values.
+
+For Office repo
+Bashgit remote set-url origin git@github-office:company-org/team-repo.git
+Replace company-org and team-repo accordingly.
+```
+### Verify it worked
+```
+Bashgit remote -v
+```
