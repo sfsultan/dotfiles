@@ -64,5 +64,5 @@ Replace company-org and team-repo accordingly.
 ```
 ### Verify it worked
 ```
-Bashgit remote -v
+git remote -v
 ```
