@@ -55,11 +55,11 @@ git config user.email "your.office@email.com"
 Open Git Bash (or PowerShell) inside your existing repo and run one of the following:
 ```
 For Personal repo
-Bashgit remote set-url origin git@github-personal:your-username/your-repo-name.git
+git remote set-url origin git@github-personal:your-username/your-repo-name.git
 Replace your-username and your-repo-name with actual values.
 
 For Office repo
-Bashgit remote set-url origin git@github-office:company-org/team-repo.git
+git remote set-url origin git@github-office:company-org/team-repo.git
 Replace company-org and team-repo accordingly.
 ```
 ### Verify it worked
